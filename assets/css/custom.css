@@ -1,0 +1,12 @@
+/* Header Setting Icon custom styles */
+
+#settingIcon
+{
+    transition: all 0.5s;
+}
+
+#settingIcon:hover
+{
+    transition: all 0.5s;
+    transform: rotate(90deg);
+}
