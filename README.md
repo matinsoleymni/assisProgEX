@@ -2,7 +2,7 @@
 
 ## TODO:
 
-- [X] OTP Send
+- [X] Start
 - [ ] :)
 
 ## Zmat2411
