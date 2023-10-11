@@ -1,0 +1,12 @@
+{
+  "name": "assisprog",
+  "version": "1.0.0",
+  "description": "Extension for programmers",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch",
+    "minify": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --minify"
+  },
+  "author": "Matin Soleymani",
+  "license": "MIT"
+}
