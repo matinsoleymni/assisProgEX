@@ -3,7 +3,12 @@
 ## TODO:
 
 - [X] Start
-- [ ] :)
+- [ ] Home Page
+- [ ] Setting Page
+- [ ] Sidebar Page
+- [ ] Global Todo :)
+- [ ] Global Bookmark :)
+- [ ] And more great ideas :))
 
 
 -------------
