@@ -1,12 +1,38 @@
 {
     "name": "assisProg",
-    "version": "1.0",
+    "version": "1.0.0",
     "manifest_version": 3,
     "chrome_url_overrides": {
-        "newtab": "index.html",
-        "tab": "panel.html"
+        "newtab": "index.html"
+    },
+    "action": {
+        "default_title": "Show Setting", 
+        "default_popup": "pages/panel.html"
+    },
+    "side_panel": {
+        "default_path": "pages/sidePanel.html"
+    },
+    "options_ui": {
+        "page": "pages/options.html",
+        "open_in_tab": false
+    },
+    "commands": {
+        "AssisProg": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+Z",
+            "mac": "Command+Shift+Z"
+            },
+            "description": "Run \"AssisProg\" on the current page.",
+            "global": true
+        }
+    },
+    "homepage_url": "https://github.com/matinsoleymni",
+    "background": {
+        "service_worker": "Server.js",
+        "type": "module"
     },
     "permissions": [
-        "tabs"
+        "tabs",
+        "sidePanel"
     ]
 }

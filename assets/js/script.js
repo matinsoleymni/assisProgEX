@@ -1,5 +1,8 @@
-/* AssisProg */
+/* 
+    * AssisProg 
+    ? License: MIT License 
+    ! anther: https://github.com/matinsoleymni
+*/
 
-import {aa} from "./helpers.js"
+import {$} from "./helpers.js"
 
-aa("body")
