@@ -2,12 +2,24 @@
     "name": "assisProg",
     "version": "1.0.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "assets/images/logo-16.jpg",
+        "32": "assets/images/logo-32.jpg",
+        "48": "assets/images/logo-48.jpg",
+        "128": "assets/images/logo-128.jpg"
+    },
     "chrome_url_overrides": {
         "newtab": "index.html"
     },
     "action": {
         "default_title": "Show Setting", 
-        "default_popup": "pages/panel.html"
+        "default_popup": "pages/panel.html",
+        "default_icon": {
+            "16": "assets/images/logo-16.jpg",
+            "32": "assets/images/logo-32.jpg",
+            "48": "assets/images/logo-48.jpg",
+            "128": "assets/images/logo-128.jpg"
+        }
     },
     "side_panel": {
         "default_path": "pages/sidePanel.html"
@@ -33,6 +45,7 @@
     },
     "permissions": [
         "tabs",
-        "sidePanel"
+        "sidePanel",
+        "https://githun.com/matinsoleymni"
     ]
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,58 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body class="dark:bg-gray-800">
-    <div class="container mx-auto bg-red-100 dark:bg-red-700">
-        <header class="flex items-center justify-between px-5 py-2">
+    <main class="container flex mx-auto">
+        <!-- ToDo List -->
+        <div class="flex flex-col justify-between h-screen bg-gray-300 border-2 border-purple-600 rounded-lg">
+            <div class="m-2">
+                <div class="pb-2 border-b-2 border-black">
+                    <h3 contenteditable>کارهای مهم امروزم :)</h3>
+                </div>
+                <div>
+                    <div class="flex items-center justify-between p-2 my-2 bg-white border-2 border-purple-600 rounded-lg">
+                        <div class="flex gap-2">
+                            <input style="accent-color: purple;" class="w-5" type="checkbox" name="do">
+                            <p>خرید خونه</p>
+                        </div>
+                        <div class="trash">
+                            <img src="./assets/images/trash.svg" alt="trash icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div>
-                <h1 class="text-2xl dark:text-white">Assis Prog - 24 is here</h1>
+                <div class="flex gap-5 m-2">
+                    <span class="w-6 h-6 bg-indigo-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-orange-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-green-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-blue-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-purple-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-red-600 border-2 border-white rounded-full"></span>
+                    <span class="w-6 h-6 bg-black border-2 border-white rounded-full"></span>
+                </div>
+                <div class="flex items-center mt-3">
+                    <input class="w-full p-2 text-lg outline-none" type="text" placeholder="یادت نره به خودتم برس :)">
+                    <button class="p-1 px-2 text-3xl text-white bg-purple-600">+</button>
+                </div>
             </div>
-            <div class="cursor-pointer">
-                <img id="settingIcon" src="assets/images/setting.png" alt="setting Icon" width="30px">
-            </div>
-        </header>
-    </div>
+        </div>
+
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 <script type="module" src="assets/js/script.js"></script>
 </html>

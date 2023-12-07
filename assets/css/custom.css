@@ -4,15 +4,12 @@
     ! anther: https://github.com/matinsoleymni
 */
 
-/* Header Setting Icon custom styles */
-
-#settingIcon
-{
-    transition: all 0.5s;
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazirmatn.woff2);
 }
 
-#settingIcon:hover
+*
 {
-    transition: all 0.5s;
-    transform: rotate(90deg);
+    font-family: vazir;
 }
