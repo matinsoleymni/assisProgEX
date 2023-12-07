@@ -1,4 +1,4 @@
-# Update document be coon :) please wait 💜
+# Update document be soon :) please wait 💜
 
 ## TODO:
 
